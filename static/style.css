@@ -1,0 +1,503 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset */
+.container{
+    max-width: 1440px;
+    width: 90%;
+    margin:0 auto;
+}
+.logo a{
+text-decoration: none;
+font-family: Cinzel;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #3F3232;
+}
+.logo a span{
+font-family: Cinzel;
+font-size: 22px;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ color: #3F3232; 
+}
+.flower{
+height: 22px;
+width: 32px;
+color: #3F3232;
+border-radius: 0px;
+}
+.logo{
+  display: flex;
+}
+.nav-item {
+display: flex;
+gap:48px;
+padding-top: 5px;
+}
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+}
+.nav1{
+	text-decoration: none;
+	font-family: Cinzel;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+	color: #3F3232;
+}
+
+.background{
+	background: #F5EFEF;
+    height: 110px;
+}
+.profile{
+	width:42px;
+	height: 42px;
+}
+/* header */
+.today{
+	margin-left:250px;
+}
+.title1{
+	font-family: Cinzel;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+	padding-top: 162px;
+	padding-bottom: 100px;
+	
+}
+.card1{
+	width: 343px;
+	height: 532px;
+	border: solid 1px#75464AB2;
+	padding:21px;
+	background-color:#F7F5F5 ;
+}
+.flower-img{
+	width: 95%;
+}
+.name{
+font-family: Cinzel;
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left; 
+}
+.price{
+	font-family: Cinzel;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	letter-spacing: 0em;
+	text-align: left;
+		
+}
+.small-text{
+	padding-top:27px;
+	display: flex;
+	justify-content:space-between;
+}
+.text span{
+color:#FF0000;
+font-family: Cinzel;
+font-size: 16px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.text{
+font-family: Cinzel;
+font-size: 16px;
+font-weight: 400;
+line-height: 47px;
+letter-spacing: 0.03em;
+text-align: left;
+text-decoration-line: underline;
+}
+.add-card{
+height: 38px;
+width: 159px;
+border-radius: 10px;
+background-color:#3F3232 ;
+font-family: Cinzel;
+font-size: 12px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+color:#FFFFFF ;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+}
+.button{
+	display: flex;
+	justify-content: flex-end;
+}
+.card{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.view-more button{
+height: 63px;
+width: 237px;
+border-radius: 10px;
+background-color: #3F3232;
+font-family: Cinzel;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0.03em;
+text-align: left;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+}
+.view{
+display: flex;
+flex-direction: row-reverse;
+justify-content:space-between;
+padding-top: 92px;
+padding-right:140px ;
+}
+.footer{
+height: 300px;
+width: 100%;
+background-color:#F5EFEF ;
+margin-top: 183px;
+padding-top:66px ;
+}
+.small-logo span{
+font-family: Cinzel;
+font-size: 22px;
+font-weight: 900;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ color: #3F3232; 
+}
+.small-logo{
+text-decoration: none;
+font-family: Cinzel;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #3F3232;
+
+}
+.last{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.happiness{
+	padding-top: 13px;
+}
+.icon{
+	padding-top: 46px;
+}
+.how{
+	padding-bottom: 36px;
+}
+.policy{
+	padding-bottom: 36px;
+}
+.location{
+	padding-bottom: 36px;
+}
+.number{
+	padding-bottom: 36px;
+}
+/* home */
+.photo{
+font-family: Cinzel;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 56px;
+margin-left: 119px;
+padding-bottom: 104px;
+}
+.photoes1{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 112px;
+}
+.photoes2{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding-bottom: 112px;
+}
+.photoes3{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.picture1{
+	width:300px;
+	height:350px;
+}
+.picture1:hover{
+	filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+
+/* gallery */
+.faq1{
+font-family: Cinzel;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+padding-left: 244px;
+padding-top: 171px;
+}
+.lorem{
+font-family: Open Sans;
+font-size: 25px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 71px;
+padding-left: 242px;
+
+}
+.line{
+border-bottom: solid 1px#75464A ;
+width: 700px;
+margin-left: 227px;
+}
+.lorem1{
+width:1029px ;
+margin-left: 236px;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 43px;
+}
+.loerm2{
+width:1029px ;
+margin-left: 236px;
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+}
+/* faq */
+.contact-text{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	align-content: space-around;
+	align-items:flex-end;
+}
+.send{
+font-family: Cinzel;
+font-size: 18px;
+font-weight: 700;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+}
+.clock{
+font-family: Cinzel;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: center;
+}
+.first-name{
+	box-sizing: border-box;
+    position: absolute;
+	width: 525px;
+	height: 65.45px;
+	border: 1px solid rgba(117, 70, 74, 0.7);
+	border-radius: 10px;
+	display: flex;
+}
+.name{
+font-family: Cinzel;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+}
+.name span{
+	color:#FF0000;
+}
+.fn1{
+	display:flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+	gap: 117px;
+	padding-left: 71px;
+}
+.fn2{
+	display:flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+	gap: 117px;
+	padding-left: 786px;
+}
+.last-name{
+	box-sizing: border-box;
+    position: absolute;
+	width: 525px;
+	height: 51px;
+	border: 1px solid rgba(117, 70, 74, 0.7);
+	border-radius: 10px;
+	display: flex;
+}
+.section-first{
+	display: flex;
+	padding-top: 97px;
+}
+.big{
+box-sizing: border-box;
+position: absolute;
+width: 588px;
+height: 400.76px;
+border: 1px solid rgba(117, 70, 74, 0.7);
+border-radius: 10px;
+font-family: 'Cinzel';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+font-family: 'Cinzel';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+.send-us{
+margin-top: 849px;
+margin-left: 300px;	
+position: absolute;
+width: 224px;
+height: 63.44px;
+background: #3F3232;
+border-radius: 10px;
+color: #FFFFFF;
+font-family: Cinzel;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0.03em;
+text-align:center;
+}
+/* contact */
+.about-text{
+	font-family: Cinzel;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+ width:704px;
+ height: 353px;
+ display: flex;
+}
+.us{
+	display: flex;
+	justify-content:space-around ;
+}
+.about-picture1{
+	display: flex;
+	vertical-align: center;
+}
+.about-text2{
+	font-family: Cinzel;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 29px;
+	letter-spacing: 0em;
+	text-align: left;
+	 width:704px;
+	 height: 353px;
+	 display: flex;
+	 vertical-align: center;
+}
+.about-picture2{
+	display: flex;
+}
+.us2{
+	display: flex;
+	justify-content: space-around;
+	padding-top: 306px;
+}
+/* about */
